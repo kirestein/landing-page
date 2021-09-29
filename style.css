@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("https://www.infnet.edu.br/esti/wp-content/uploads/sites/5/2020/05/bigstock-Programming-Web-Banner-Best-P-349867117.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.retangulo {
+    
+    position: absolute;
+    width: 100%;
+    height: 200%;
+    background-color: #1c1c1c;
+    opacity: 0.7;
+    z-index: -2;
+}
+
+
+
+#logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    
+    display: flex;
+    /* width: 35%; */
+    /* margin: 0 0 0  7rem; */
+    color: #fff;
+    justify-content: center;
+    line-height: 1.5;
+    
+    
+}
+
+.modal-body, .modal-title {
+    margin: 2rem;
+    color: #1c1c1c;
+}
+
+.modal-body {
+    background-image: url();
+}
+
+.modal-content {
+    /* background-image: url("https://www.infnet.edu.br/esti/wp-content/uploads/sites/5/2020/05/bigstock-Programming-Web-Banner-Best-P-349867117.jpg"); */
+    line-height: 1.5;
+}
+
+.mensagem {
+    width: 35%;
+    margin-right: 2rem;
+    color: #fff;
+    
+}
+
+.titulo {
+    color: #EA7B26;
+    font-size: 2rem;
+    text-align: justify;
+}
+
+.subtitulo {
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+
+.texto {
+    font-size: 2rem;
+    line-height:  1.5;
+    text-align: justify;
+}
+
+.sangue-laranja {
+    color: #EA7B26;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.formulario {
+    line-height: 1.5;
+    
+    background-color: #1c1c1c;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+#nome, #email, #setor, #cargo {
+    width: 40rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+}
+
+#just {
+    width: 40rem;
+    border-radius: 0.5rem;
+}
+
+.escolha {
+    text-align: center;
+    
+}
+
+.escolha input {
+    margin: 1rem;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+#enviar {
+    width: 20rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    background-color: #EA7B26;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+}

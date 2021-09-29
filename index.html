@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Importando o css do bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"> -->
+    <title>FCAMARA</title>
+</head>
+<body>
+    
+        <div class="retangulo"></div>
+        <div id="logo">
+            <img src="https://workinside.com.br/images/clients/fcamara.png" alt="Logo da FCamara">
+        </div>
+    <div class="container">
+        <div class="mensagem">
+            <div class="titulo">
+                <h1>Vamos voltar! E queremos muito saber sua opnião!!</h1>
+            </div>
+            <br>
+            <h2 class="subtitulo">Estamos preparando o retorno ao escritório de forma segura
+                 para nossa equipe de <span class="sangue-laranja">#SangueLaranja</span>!</h2>
+                 <br>
+            <p class="texto">
+                A pandemia trouxe até nós muitas situaçõese e nos afastou fisicamente. Estamos vencendo esta batalha
+                com ciência e coletividade, desta forma acreditamos que seja o momento de começarmos a voltar
+                para o trabalho presencial, por isso queremos convidar  você  que faz porte  do time 
+                <span class="sangue-laranja">#SangueLaranja</span>
+                para retornar conosco, seguindo todos os  protocolos de saúde e distânciamento.
+                <br><br>
+                Nós entendemos que nem todos querem voltar, seja porque não se sentem seguros ainda para o retorno,
+                seja por estarem em outras cidade e é exatamento por esta razão que nós queremos  ouvir o que
+                vocês tem a dizer  sobre a retomada do trabalho presencial, queremos que vocês se  sintam a vontade
+                para se espressarem.
+                <br><br>
+                Antes de preencher o formulário verifique todas as regras do retorno.
+                <!-- <a href="" onclick="popup()">Clique aqui!</a> -->
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+                    Clique Aqui!
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Informações sobre o retorno</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        </div>
+                        <div class="modal-body">
+                        <ul>
+                            <li>Os escritórios voltarão a ficar abertos no horário das 8h às 18h.</li><br>
+                            <li>Nós temos 2 escritórios: um em São Paulo (principal) e outro em Santos (filial).</li><br>
+                            <li>O retorno ao escritório só é possível através de um sistema de agendamento, onde os #SangueLaranjas poderão optar qual escritório ir, além de escolher data e também a estação de trabalho demarcada com um número.</li><br>
+                            <li>Será medida a temperatura ao chegar no escritório.</li><br>
+                            <li>Todos os consultores deverão usar máscaras dentro das acomodações dos escritórios.</li><br>
+                            <li>Nas mesas existem adesivos sinalizando onde os #SangueLaranjas devem sentar, para que haja o distanciamento necessário.</li><br>
+                            <li>Pessoas que estiverem sentindo algum sintoma não devem ir trabalhar presencialmente, a indicação é para que permaneçam em casa.</li><br>
+                            <li>Os escritórios só podem comportar até 40% dos consultores, conforme a legislação.</li><br>
+                        </ul>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </p>
+            
+
+        </div>
+        <div class="formulario">
+            <div class="titulo">
+                <h1>Preencha o formulário</h1>
+            </div>
+            <div class="subtitulo">
+                <h5>Caso sinta-se confrotável, pedimos que se  identifique</h5>
+            </div>
+            <form action="">
+                <div>
+                    <label for="nome">Nome (opicional) <br>
+                        <input type="text"  name="nome"  id="nome" >
+                    </label>
+                </div>
+                <div>
+                    <label for="email">Email <br>
+                        <input type="email" name="email" id="email">
+                    </label>
+                </div>
+                <div>
+                    <label for="setor">Setor <br>
+                        <input type="text" name="setor"  id="setor">
+                    </label>
+                </div>
+                <div>
+                    <label for="cargo">Cargo <br>
+                        <input type="text" name="cargo" id="cargo">
+                    </label>
+                </div>
+                <div  class="escolha">
+                    <label for="escolha" class="escolha">Você tem intenção de retornar ao presencial? <br>
+                         <input type="radio"  name="escolha"  class="escolha" value="sim">Sim
+                         <input type="radio"  name="escolha"  class="escolha"  value="nao">Não
+                         <input type="radio" name="escolha"  class="escolha"  value="ns">Não Sei
+                    </label>
+                </div>
+                <div>
+                    <label for="just">Caso queira, justifique sua escolha: <br>
+                    <textarea name="just" id="just"  rows="10"></textarea></label>
+                </div>
+                <div class="botao">
+                    <input type="button" name="enviar" id="enviar"  value="Enviar!">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+     <!-- Importando o jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+     <!-- Importando o js do bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+</html>
